@@ -30,14 +30,14 @@ document.getElementById("HW2_button").onclick = ()=>
 document.getElementById("HW3_button").onclick =()=>
 {
     let a = prompt("Введите длину стороны квадрата");
-    if( Number.isNaN(Number(a))) { alert("Введите число, а не кукавки!!!"); return; }
+    if( Number.isNaN(Number(a))) { alert("Введите число, а не букавки!!!"); return; }
     alert("Периметр квадрата равен: " + a*4);
 }
 //HW_4
 document.getElementById("HW4_button").onclick =()=>
 {
     let a = prompt("Введите радиус окружности");
-    if( Number.isNaN(Number(a))) { alert("Введите число, а не кукавки!!!"); return; }
+    if( Number.isNaN(Number(a))) { alert("Введите число, а не букавки!!!"); return; }
     alert("Площадь круга равна: " + Math.PI*(a**2));
 }
 //HW_5
